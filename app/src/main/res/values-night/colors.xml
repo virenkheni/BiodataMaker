@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <!--<color name="colorPrimary">#ffa500</color>
+    <color name="colorPrimaryDark">#e59400</color>-->
+    <color name="green">#7cbe0a</color>
+    <color name="backcolor">#1e1e1e</color>
+    <color name="dark_green">#228b22</color>
+    <color name="parrot">#00FF7F</color>
+    <color name="button">#FD3259</color>
+    <color name="maroon">#800b00</color>
+    <color name="blue_dark_1">#00004c</color>
+    <color name="blue_dark_2">#000066</color>
+    <color name="blue_dark_3">#00007f</color>
+    <color name="blue_dark_4">#000099</color>
+
+
+    <color name="backgroundcolor">#212121</color>
+    <color name="textcolor">#ffffff</color>
+    <color name="toolbar_text">#DAA520</color>
+    <color name="toolbar_background">#212121</color>
+
+
+
+    <color name="colorAccent">#0EBFE9</color>
+    <color name="button_blue">#0EBFE9</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#ffffff</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+    <color name="grey">#DDDDDD</color>
+    <color name="light_grey">#EEEEEE</color>
+    <color name="white_transparent">#99FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="mid_black">#323232</color>
+    <color name="mid_black_light">#4c4c4c</color>
+    <color name="mid_black_dark">#191919</color>
+
+    <color name="mid_gray">#605F64</color>
+    <color name="gray_text">#7F8285</color>
+    <color name="rim_color_gray">#B0B0B0</color>
+    <color name="center_text">#D31145</color>
+    <color name="round_progress_blue">#2173B9</color>
+    <color name="red">#ff0000</color>
+    <color name="goldenrod">#DAA520</color>
+    <color name="darkgold">#ffdc73</color>
+
+
+    <color name="grayIconTint">#727272</color>
+
+    <color name="shopAccent">#84ceca</color>
+    <color name="shopSecondary">#727272</color>
+    <color name="shopRatedStar">#ffeb5a</color>
+    <color name="shopFabRipple">#51b2ac</color>
+
+    <color name="galleryBg">#212121</color>
+    <color name="galleryCurrentItemOverlay">@android:color/transparent</color>
+    <color name="galleryItemOverlay">#cc000000</color>
+    <color name="galleryEdgeEffect">#b4ffffff</color>
+    <color name="galleryAccent">#FFC107</color>
+
+    <color name="weatherAccent">#84ceca</color>
+
+    <color name="gradientPeriodicClouds_c1">#3453d1</color>
+    <color name="gradientPeriodicClouds_c2">#6d69ff</color>
+    <color name="gradientPeriodicClouds_c3">#cd47c6</color>
+
+    <color name="c1">#ddE53935</color>
+    <color name="c2">#dd26A69A</color>
+    <color name="c3">#ddFFC107</color>
+
+    <color name="personal">#f8b195</color>
+    <color name="education">#c06c84</color>
+    <color name="family">#F67280</color>
+    <color name="maternal">#6c5b7b</color>
+
+
+</resources>

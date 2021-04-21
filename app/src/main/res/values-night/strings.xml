@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Biodata Maker</string>
+
+
+    <!-- Test Ads
+     <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+     <string name="fullscreen_google">ca-app-pub-3940256099942544/1033173712</string>
+     <string name="banner_google">ca-app-pub-3940256099942544/5224354917</string>
+
+     <string name="banner_fb">"YOUR_PLACEMENT_ID"</string>
+    <string name="fullscreen_fb">"YOUR_PLACEMENT_ID"</string>
+    <string name="reward_fb">"YOUR_PLACEMENT_ID"</string>
+    <string name="fb_app_id">1519560444864228</string>-->
+
+    <string name="developer_details">"androxpro"</string>
+
+    <!--Google Live-->
+    <string name="app_id">ca-app-pub-9413065049229400~4561373641</string>
+    <string name="fullscreen_google">ca-app-pub-9413065049229400/5014452174</string>
+    <string name="banner_google">ca-app-pub-9413065049229400/6327533842</string>
+    <!--FB Live-->
+    <string name="banner_fb">304315717876089_304316297876031</string>
+    <string name="fullscreen_fb">304315717876089_304317024542625</string>
+    <string name="fb_app_id">304315717876089</string>
+
+
+    <string name="pp">"https://drive.google.com/file/d/1xyIIYar7a46ZcnKH9X_GjJZaTDf86MEC/view?usp=drivesdk"</string>
+    <string name="dialog_privacypolicy"><b>Required permission to use this app</b>\n\n
+        <b>(1) INTERNET</b>\n
+        <b>(2) WIFI</b>\n
+</string>
+    <string name="caption1">"Together is a wonderful place to be."</string>
+    <string name="caption2">"All of my smiles start with you."</string>
+    <string name="caption3">"Just married!"</string>
+    <string name="caption4">"All you need is love."</string>
+    <string name="caption5">"You're my person, forever."</string>
+</resources>

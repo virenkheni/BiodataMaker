@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.biodata.biodatamaker.Activity.PersonalDetailsActivity">
+
+    <item
+        android:id="@+id/More"
+        android:orderInCategory="100"
+        android:title="More Apps" />
+    <item
+        android:id="@+id/Share"
+        android:orderInCategory="100"
+        android:title="Refer &amp; Get Rs.300!*" />
+    <item
+        android:id="@+id/Rate"
+        android:orderInCategory="100"
+        android:title="Rate the App" />
+    <item
+        android:id="@+id/Privacy"
+        android:orderInCategory="100"
+        android:title="Privacy Policy" />
+</menu>
