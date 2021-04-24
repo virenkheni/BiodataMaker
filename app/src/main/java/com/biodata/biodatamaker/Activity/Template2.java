@@ -8,6 +8,7 @@ import android.graphics.Canvas;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.util.Base64;
 import android.view.View;
@@ -96,10 +97,59 @@ public class Template2 extends AppCompatActivity {
             setContentView(R.layout.activity_template19);
         } else if (pos == 20) {
             setContentView(R.layout.activity_template20);
-        }
-        else if (pos == 21) {
+        } else if (pos == 21) {
             setContentView(R.layout.activity_template21);
+        } else if (pos == 22) {
+            setContentView(R.layout.activity_template22);
+        } else if (pos == 23) {
+            setContentView(R.layout.activity_template23);
+        } else if (pos == 24) {
+            setContentView(R.layout.activity_template24);
+        } else if (pos == 25) {
+            setContentView(R.layout.activity_template25);
+        } else if (pos == 26) {
+            setContentView(R.layout.activity_template26);
+        } else if (pos == 27) {
+            setContentView(R.layout.activity_template27);
+        } else if (pos == 28) {
+            setContentView(R.layout.activity_template28);
+        } else if (pos == 29) {
+            setContentView(R.layout.activity_template29);
+        } else if (pos == 30) {
+            setContentView(R.layout.activity_template30);
+        } else if (pos == 31) {
+            setContentView(R.layout.activity_template31);
+        } else if (pos == 32) {
+            setContentView(R.layout.activity_template32);
+        } else if (pos == 33) {
+            setContentView(R.layout.activity_template33);
+        } else if (pos == 34) {
+            setContentView(R.layout.activity_template34);
+        } else if (pos == 35) {
+            setContentView(R.layout.activity_template35);
+        } else if (pos == 36) {
+            setContentView(R.layout.activity_template36);
+        } else if (pos == 37) {
+            setContentView(R.layout.activity_template37);
+        } else if (pos == 38) {
+            setContentView(R.layout.activity_template38);
+        } else if (pos == 39) {
+            setContentView(R.layout.activity_template39);
+        } else if (pos == 40) {
+            setContentView(R.layout.activity_template40);
+        } else if (pos == 41) {
+            setContentView(R.layout.activity_template41);
+        } else if (pos == 42) {
+            setContentView(R.layout.activity_template42);
+        } else if (pos == 43) {
+            setContentView(R.layout.activity_template43);
+        } else if (pos == 44) {
+            setContentView(R.layout.activity_template44);
+        } else if (pos == 45) {
+            setContentView(R.layout.activity_template45);
         }
+
+
         tv_name = findViewById(R.id.tv_name);
         // tv_name1 = (TextView) findViewById(R.id.tv_name1);
         tv_dob = findViewById(R.id.tv_dob);
@@ -126,7 +176,6 @@ public class Template2 extends AppCompatActivity {
         iv_photo = findViewById(R.id.iv_photo);
         mainLayout = (RelativeLayout) findViewById(R.id.relative);
         relative = findViewById(R.id.relativee);
-        ll_photo = findViewById(R.id.ll_photo);
         //mScaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
 
 
@@ -135,7 +184,7 @@ public class Template2 extends AppCompatActivity {
 
         tv_name.setText(db.getString("name"));
         tv_dob.setText(db.getString("dob"));
-        tv_height.setText(db.getString("height") + " inch");
+        tv_height.setText(db.getString("height") + " ft");
         tv_weight.setText(db.getString("weight") + " KG");
         tv_hobby.setText(db.getString("hobby"));
         tv_occ.setText(db.getString("occuption"));
@@ -209,7 +258,22 @@ public class Template2 extends AppCompatActivity {
             byte[] b = Base64.decode(previouslyEncodedImage, Base64.DEFAULT);
             bitmap1 = BitmapFactory.decodeByteArray(b, 0, b.length);
             iv_photo.setImageBitmap(bitmap1);
+
         }
+
+        iv_photo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        float deg = iv_photo.getRotation() + 90F;
+                        iv_photo.animate().rotation(deg);//Do something after 100ms
+                    }
+                }, 500);
+            }
+        });
 
     }
 
@@ -274,6 +338,7 @@ public class Template2 extends AppCompatActivity {
         startActivity(Intent.createChooser(intent, "Open folder"));
 
     }
+
     private void galleryAddPic() {
         Intent intent = new Intent("android.intent.action.MEDIA_SCANNER_SCAN_FILE");
         intent.setData(Uri.fromFile(new File(Environment.getExternalStorageDirectory(), "Biodata")));

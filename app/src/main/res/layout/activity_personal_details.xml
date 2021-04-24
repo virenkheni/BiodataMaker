@@ -111,7 +111,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
 
-                    android:hint="Height (inch) (ઉંચાઈ)   e.g. 5.5"
+                    android:hint="Height (ft) (ઉંચાઈ)   e.g. 5.5"
                     android:imeOptions="actionNext"
                     android:inputType="numberDecimal"
                      android:textColor="@color/textcolor"

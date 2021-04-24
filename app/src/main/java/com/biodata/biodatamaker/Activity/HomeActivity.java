@@ -56,7 +56,7 @@ import java.util.Map;
 
 
 public class HomeActivity extends AppCompatActivity {
-    Button btn_p, btn_f, btn_e, btn_m, btn_darkmode;
+    Button btn_p, btn_f, btn_e, btn_m, btn_darkmode, btn_templates;
     TinyDB db;
     Toolbar toolbar;
     private static final int REQUEST_ID_MULTIPLE_PERMISSIONS = 1;
@@ -124,6 +124,7 @@ public class HomeActivity extends AppCompatActivity {
         btn_e = findViewById(R.id.btn_education);
         btn_m = findViewById(R.id.btn_maternal);
         btn_darkmode = findViewById(R.id.btn_darkmode);
+        btn_templates = findViewById(R.id.btn_templates);
 
 
         checkDarkMode();
@@ -213,7 +214,15 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+        btn_templates.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                app.showInterstitialAdGoogle();
+                startActivity(new Intent(HomeActivity.this, TemplateActivity.class));
+                overridePendingTransition(R.anim.fadein, R.anim.fadeout);
 
+            }
+        });
     }
 
 

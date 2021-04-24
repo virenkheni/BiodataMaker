@@ -46,15 +46,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="30"
-                            android:layout_marginTop="50dp"
+                            android:layout_marginTop="20dp"
                             android:orientation="vertical">
 
                             <TextView
                                 android:id="@+id/tv_name"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="20dp"
                                 android:fontFamily="@font/quicksandbold"
                                 android:text="Name"
                                 android:textAllCaps="true"
@@ -66,9 +64,6 @@
                                 android:id="@+id/tv_address"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
-                               
-                                android:text=""
                                 android:textColor="@color/black"
                                 android:textSize="12dp"
                                 android:textStyle="bold" />
@@ -77,9 +72,6 @@
                                 android:id="@+id/tv_mobile"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
-                               
-                                android:text=""
                                 android:textColor="@color/black"
                                 android:textSize="13dp"
                                 android:textStyle="bold" />

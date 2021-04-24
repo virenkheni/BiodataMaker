@@ -1,8 +1,5 @@
 package com.biodata.biodatamaker.Activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
@@ -15,6 +12,9 @@ import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 import com.biodata.biodatamaker.Adapter.Grid_Adapter;
 import com.biodata.biodatamaker.R;
 import com.biodata.biodatamaker.Utils.App;
@@ -23,53 +23,21 @@ import com.google.android.gms.ads.MobileAds;
 
 public class TemplateActivity extends AppCompatActivity {
     public static String[] web = {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21"
-
+            "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22",
+            "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"
 
     };
     public static int[] imageId = {
-            R.drawable.ic_back1,
-            R.drawable.ic_back2,
-            R.drawable.ic_back3,
-            R.drawable.ic_back4,
-            R.drawable.ic_back5,
-            R.drawable.ic_back6,
-            R.drawable.ic_back7,
-            R.drawable.ic_back8,
-            R.drawable.ic_back9,
-            R.drawable.ic_back10,
-            R.drawable.ic_back11,
-            R.drawable.ic_back12,
-            R.drawable.ic_back13,
-            R.drawable.ic_back14,
-            R.drawable.ic_back15,
-            R.drawable.ic_back16,
-            R.drawable.ic_back17,
-            R.drawable.ic_back18,
-            R.drawable.ic_back19,
-            R.drawable.ic_back20,
-            R.drawable.ic_back21
+            R.drawable.ic_back1, R.drawable.ic_back2, R.drawable.ic_back3, R.drawable.ic_back4, R.drawable.ic_back5, R.drawable.ic_back6, R.drawable.ic_back7,
+            R.drawable.ic_back8, R.drawable.ic_back9, R.drawable.ic_back10, R.drawable.ic_back11, R.drawable.ic_back12, R.drawable.ic_back13, R.drawable.ic_back14,
+            R.drawable.ic_back15, R.drawable.ic_back16, R.drawable.ic_back17, R.drawable.ic_back18, R.drawable.ic_back19, R.drawable.ic_back20, R.drawable.ic_back21,
+            R.drawable.ic_back_22, R.drawable.ic_back_23, R.drawable.ic_back_24, R.drawable.ic_back_25, R.drawable.ic_back_26, R.drawable.ic_back_27, R.drawable.ic_back_28,
+            R.drawable.ic_back_29, R.drawable.ic_back_30, R.drawable.ic_back_31, R.drawable.ic_back_32, R.drawable.ic_back_33, R.drawable.ic_back_34, R.drawable.ic_back_35,
+            R.drawable.ic_back_36, R.drawable.ic_back_37, R.drawable.ic_back_38, R.drawable.ic_back_39, R.drawable.ic_back_40, R.drawable.ic_back_41,
+            R.drawable.ic_back_42, R.drawable.ic_back_43, R.drawable.ic_back_44, R.drawable.ic_back_45
+
     };
+    //R.drawable.ic_back_39, R.drawable.ic_back_40, R.drawable.ic_back_41,R.drawable.ic_back_42, R.drawable.ic_back_43, R.drawable.ic_back_44, R.drawable.ic_back_45
     GridView grid;
     int pos;
     Toolbar toolbar;

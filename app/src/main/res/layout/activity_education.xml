@@ -67,7 +67,7 @@
                     android:hint="Degree/College"
                     android:imeOptions="actionNext"
                     android:inputType="textCapWords"
-                     android:textColor="@color/textcolor"
+                    android:textColor="@color/textcolor"
                     android:textColorHint="@color/white"
                     android:textSize="15sp" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -84,7 +84,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Degree/College"
                     android:inputType="textCapWords"
-                     android:textColor="@color/textcolor"
+                    android:textColor="@color/textcolor"
                     android:textColorHint="@color/white"
                     android:textSize="15sp" />
 
@@ -93,18 +93,18 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="100"
                 android:layout_gravity="center"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
-                android:layout_marginTop="20dp">
+                android:orientation="horizontal"
+                android:weightSum="100">
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
-                    android:layout_weight="33"
                     android:layout_gravity="center"
                     android:layout_marginLeft="20dp"
+                    android:layout_weight="33"
                     android:background="@color/goldenrod" />
 
                 <TextView
@@ -123,19 +123,20 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
-                    android:layout_weight="33"
                     android:layout_gravity="center"
                     android:layout_marginRight="20dp"
+                    android:layout_weight="33"
                     android:background="@color/goldenrod" />
             </LinearLayout>
 
-            <ImageView
-                android:id="@+id/iv_photo_main"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:src="@mipmap/ic_launcher_round" />
+
+                <ImageView
+                    android:id="@+id/iv_photo_main"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/ic_launcher_round" />
+
 
             <TextView
                 android:layout_width="match_parent"

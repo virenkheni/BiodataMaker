@@ -46,13 +46,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="30"
+                            android:layout_marginTop="20dp"
                             android:orientation="vertical">
 
                             <TextView
                                 android:id="@+id/tv_name"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
                                 android:fontFamily="@font/quicksandbold"
                                 android:text="Name"
                                 android:textAllCaps="true"
@@ -64,22 +64,16 @@
                                 android:id="@+id/tv_address"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                               
-                                android:text=""
                                 android:textColor="@color/black"
-                                android:textSize="14dp"
+                                android:textSize="12dp"
                                 android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/tv_mobile"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                               
-                                android:text=""
                                 android:textColor="@color/black"
-                                android:textSize="14dp"
+                                android:textSize="13dp"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -273,7 +267,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
+                            android:layout_marginTop="10dp"
                             android:fontFamily="@font/quicksandbold"
                             android:text="Education"
                             android:textAllCaps="true"
@@ -314,7 +308,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
+                            android:layout_marginTop="10dp"
                             android:fontFamily="@font/quicksandbold"
                             android:text="Family Background"
                             android:textAllCaps="true"
@@ -501,7 +495,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
+                            android:layout_marginTop="10dp"
                             android:fontFamily="@font/quicksandbold"
                             android:text="Maternal Details"
                             android:textAllCaps="true"

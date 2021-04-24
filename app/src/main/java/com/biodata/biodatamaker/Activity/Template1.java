@@ -7,6 +7,7 @@ import android.graphics.Canvas;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
 import android.util.Base64;
 import android.view.View;
 import android.widget.Button;
@@ -90,7 +91,7 @@ public class Template1 extends AppCompatActivity {
         tv_name.setText(db.getString("name"));
         tv_name1.setText(db.getString("name"));
         tv_dob.setText(db.getString("dob"));
-        tv_height.setText(db.getString("height") + " inch");
+        tv_height.setText(db.getString("height") + " ft");
         tv_weight.setText(db.getString("weight") + " KG");
         if (!db.getString("hobby").isEmpty()) {
             tv_hobby.setText(db.getString("hobby"));
@@ -144,6 +145,22 @@ public class Template1 extends AppCompatActivity {
         tv_maddress.setText(db.getString("maddress"));
 
         iv_photo.setImageBitmap(StringToBitMap(db.getString("pic")));
+
+        iv_photo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                final Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        float deg = iv_photo.getRotation() + 90F;
+                        iv_photo.animate().rotation(deg);//Do something after 100ms
+                    }
+                }, 500);
+            }
+        });
+
 
         bytearrayoutputstream = new ByteArrayOutputStream();
 
@@ -236,6 +253,7 @@ public class Template1 extends AppCompatActivity {
         startActivity(Intent.createChooser(intent, "Open folder"));
 
     }
+
     private void galleryAddPic() {
         Intent intent = new Intent("android.intent.action.MEDIA_SCANNER_SCAN_FILE");
         intent.setData(Uri.fromFile(new File(Environment.getExternalStorageDirectory(), "Biodata")));

@@ -15,7 +15,7 @@
     <color name="blue_dark_2">#000066</color>
     <color name="blue_dark_3">#00007f</color>
     <color name="blue_dark_4">#000099</color>
-    
+
     <color name="backgroundcolor">#fcfcfc</color>
     <color name="textcolor">#000000</color>
     <color name="toolbar_text">#DAA520</color>
@@ -81,6 +81,6 @@
     <color name="education">#c06c84</color>
     <color name="family">#F67280</color>
     <color name="maternal">#6c5b7b</color>
-
+    <color name="chamdi">#fc76</color>
 
 </resources>

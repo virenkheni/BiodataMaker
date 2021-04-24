@@ -113,10 +113,20 @@
 
         <View
             android:layout_width="1dp"
-            android:layout_height="10dp"
+            android:layout_height="20dp"
             android:layout_gravity="center_horizontal"
-            android:background="@color/gray_text"
-            android:visibility="gone" />
+            android:background="@color/gray_text" />
+
+        <Button
+            android:id="@+id/btn_templates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_t"
+            android:text="Templates"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/btn_darkmode"

@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.app.Application;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
@@ -116,6 +115,7 @@ public class App extends Application {
         if (mInterstitialAd != null) {
             mInterstitialAd.show(activity);
         } else {
+            interstitialAd_fb.loadAd();
             if (interstitialAd_fb.isAdLoaded()) {
                 interstitialAd_fb.show();
             }
@@ -147,5 +147,6 @@ public class App extends Application {
             tempVg.removeView(adView_fb);
         }
         layAdFb.addView(adView_fb);
+        interstitialAd_fb.loadAd();
     }
 }

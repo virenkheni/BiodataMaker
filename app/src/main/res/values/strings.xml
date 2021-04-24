@@ -2,15 +2,15 @@
     <string name="app_name">Biodata Maker</string>
 
 
-    <!-- Test Ads
-     <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
-     <string name="fullscreen_google">ca-app-pub-3940256099942544/1033173712</string>
-     <string name="banner_google">ca-app-pub-3940256099942544/5224354917</string>
+    <!-- &lt;!&ndash; Test Ads&ndash;&gt;
+      <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+      <string name="fullscreen_google">ca-app-pub-3940256099942544/1033173712</string>
+      <string name="banner_google">ca-app-pub-3940256099942544/5224354917</string>
 
-     <string name="banner_fb">"YOUR_PLACEMENT_ID"</string>
-    <string name="fullscreen_fb">"YOUR_PLACEMENT_ID"</string>
-    <string name="reward_fb">"YOUR_PLACEMENT_ID"</string>
-    <string name="fb_app_id">1519560444864228</string>-->
+      <string name="banner_fb">"YOUR_PLACEMENT_ID"</string>
+     <string name="fullscreen_fb">"YOUR_PLACEMENT_ID"</string>
+     <string name="reward_fb">"YOUR_PLACEMENT_ID"</string>
+     <string name="fb_app_id">1519560444864228</string>-->
 
     <string name="developer_details">"androxpro"</string>
 

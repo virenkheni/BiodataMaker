@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -79,6 +80,7 @@ public class EducationActivity extends AppCompatActivity {
         college2 = (EditText) findViewById(R.id.et_college2);
         tv_addphoto = (TextView) findViewById(R.id.tv_addphoto);
         iv = (ImageView) findViewById(R.id.iv_photo_main);
+
         db = new TinyDB(this);
 
         if (!db.getString("college1").isEmpty()) {
@@ -147,6 +149,7 @@ public class EducationActivity extends AppCompatActivity {
                 app.showInterstitialAdFb();
             }
         });
+
     }
 
 
@@ -310,4 +313,5 @@ public class EducationActivity extends AppCompatActivity {
         iv.setImageDrawable(getResources().getDrawable(R.mipmap.ic_launcher_round));
         Toast.makeText(EducationActivity.this, "Clear Data", Toast.LENGTH_LONG).show();
     }
+
 }
